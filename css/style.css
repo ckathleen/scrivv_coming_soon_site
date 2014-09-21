@@ -1,0 +1,80 @@
+body,html{
+    text-align:center;
+   /* background: url(../img/gradient_coming_soon.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  background-color: #010123;
+}
+
+
+.slideMe {
+	background-color: rgba(36,36,36,0.75);
+	position: absolute;
+	color: white;
+	padding-top: 40px; 
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	z-index: 20;
+}
+
+.item span {
+	margin-left: 25px;
+	vertical-align: 10px;
+}
+
+.item .small-text {
+	padding: 0 5%;
+}
+
+.bordered {
+	border: 1px solid #eee;
+}
+
+#slider {
+	position: relative;
+	z-index: 1;
+}
+
+.item-head {
+	margin-bottom: 25px;
+}
+
+.caption {
+	margin: 25px 0;
+}
+
+.item button {
+
+}
+
+iframe {
+	margin: 0 auto;
+}
+
+
+@keyframes bobright {
+	0% {
+		transform: translateX(0%);	
+	}
+	50% {
+		transform: translateX(8%);	
+	}	
+	100% {
+		transform: translateX(0%);
+	}			
+}
+
+@-webkit-keyframes bobright {
+	0% {
+		-webkit-transform: translateX(0%);	
+	}
+	50% {
+		-webkit-transform: translateX(8%);	
+	}	
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
